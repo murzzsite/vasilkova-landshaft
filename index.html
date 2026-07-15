@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ландшафтный дизайн и озеленение участков — Анастасия Василькова | Люберцы</title>
+<meta name="description" content="Ландшафтное проектирование, посадка растений, рулонный газон, благоустройство и уход за садом в Люберцах и Московской области. Проект участка от 30 000 ₽.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#hero" class="logo">
+      <span class="logo__icon">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 6 7 6 12.5C6 16.09 8.69 19 12 19C15.31 19 18 16.09 18 12.5C18 7 12 2 12 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19V22" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <span class="logo__text">Василькова<span class="logo__suffix"> · Ландшафт</span></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#process">Как работаем</a>
+      <a href="#objects">Проекты</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="tel:+79261234567" class="header__phone">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8C7.9 13.4 10 15.5 12.6 16.8L14.6 14.8C14.9 14.5 15.3 14.4 15.7 14.5C17 15 18.4 15.2 19.8 15.2C20.5 15.2 21 15.7 21 16.4V19.7C21 20.4 20.5 20.9 19.8 20.9C10.5 20.9 3 13.4 3 4.1C3 3.4 3.5 2.9 4.2 2.9H7.5C8.2 2.9 8.7 3.4 8.7 4.1C8.7 5.5 8.9 6.9 9.4 8.2C9.5 8.6 9.4 9 9.1 9.3L6.6 10.8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <span>+7 (926) 123-45-67</span>
+      </a>
+      <a href="#contacts" class="btn btn--primary btn--sm">Записаться</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="eyebrow">Люберцы и Московская область</span>
+        <h1>Сад, за который не стыдно — от проекта до посаженного растения</h1>
+        <p class="hero__text">Ландшафтное проектирование, посадка растений с гарантией, рулонный газон и благоустройство территории. Работаю сама, без субподряда — вижу участок от эскиза до готового результата.</p>
+        <div class="hero__cta">
+          <a href="#contacts" class="btn btn--primary btn--lg">Обсудить участок</a>
+          <a href="#prices" class="btn btn--ghost btn--lg">Смотреть цены</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num" data-target="7">0</span><span class="stat__suffix">+ лет</span>
+            <span class="stat__label">в ландшафтном деле</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="120">0</span><span class="stat__suffix">+</span>
+            <span class="stat__label">реализованных участков</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="50">0</span><span class="stat__suffix">%</span>
+            <span class="stat__label">гарантия приживаемости растений</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__card">
+        <div class="hero__card-badge">Проект участка</div>
+        <div class="hero__card-price">от 30 000 ₽</div>
+        <ul class="hero__card-list">
+          <li>Планировка зон и дорожек</li>
+          <li>Подбор растений под ваш участок</li>
+          <li>3D-визуализация по запросу</li>
+          <li>Консультация агронома — 10 000 ₽</li>
+        </ul>
+        <a href="#contacts" class="btn btn--primary btn--full">Заказать проект</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="adv-section" id="advantages">
+    <div class="container">
+      <h2 class="section-title">Почему обращаются ко мне</h2>
+      <p class="section-sub">Не подрядная бригада, а специалист, который отвечает за результат лично</p>
+
+      <div class="adv-grid">
+        <div class="adv">
+          <div class="adv__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 2L14.5 8.5L21 9L16 13.5L17.5 20L12 16.5L6.5 20L8 13.5L3 9L9.5 8.5L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+          <h3>Гарантия на посадку</h3>
+          <p>Растения приживаются или пересаживаю бесплатно — при посадке с гарантией.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 21V13C4 9.7 6.7 7 10 7H14C17.3 7 20 9.7 20 13V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 21V16H15V21" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="4" r="2" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          <h3>Проект под ваш участок</h3>
+          <p>Учитываю тип почвы, освещённость и назначение зон — не типовые шаблоны.</p>
+        </div>
+        <div class="adv__icon-wrap">
+        </div>
+        <div class="adv">
+          <div class="adv__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3 12L9 18L21 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Без посредников</h3>
+          <p>Все работы — проектирование, посадки, уход — веду лично, от сметы до сдачи.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 4 14.5 4 9C4 5.7 6.7 3 10 3C11.5 3 12.6 3.6 12 5C11.4 3.6 12.5 3 14 3C17.3 3 20 5.7 20 9C20 14.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+          <h3>Забота о растениях</h3>
+          <p>Подбираю виды, устойчивые к местному климату — сад радует не один сезон.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 4H20V16H12L7 20V16H4V4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+          <h3>Прозрачные цены</h3>
+          <p>Стоимость посадки привязана к цене растений — 30% без гарантии, 50% с гарантией.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Услуги</h2>
+      <p class="section-sub">От первого эскиза участка до многолетнего ухода за садом</p>
+
+      <div class="services-grid">
+        <div class="service">
+          <div class="service__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 21L21 3M3 3L21 21" stroke="none"/><path d="M4 20H10M4 20V14M20 4H14M20 4V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3>Ландшафтное проектирование</h3>
+          <p>Планировка участка, зонирование, подбор растений и материалов, визуализация будущего сада.</p>
+          <span class="service__price">от 30 000 ₽</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22V12M12 12C12 12 6 11 6 5C6 5 12 4 12 12ZM12 12C12 12 18 11 18 5C18 5 12 4 12 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+          <h3>Посадка растений</h3>
+          <p>Деревья, кустарники, многолетники и хвойные. Стандартная посадка или с гарантией приживаемости.</p>
+          <span class="service__price">30% / 50% от растений</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="8" width="18" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M7 8V6C7 4.9 7.9 4 9 4H15C16.1 4 17 4.9 17 6V8" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          <h3>Контейнерное озеленение</h3>
+          <p>Кашпо, вазоны и композиции для террас, входных групп и патио — быстрое обновление вида участка.</p>
+          <span class="service__price">от 8 000 ₽</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="10" width="18" height="9" rx="1" stroke="currentColor" stroke-width="1.5"/><path d="M3 10L12 4L21 10" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+          <h3>Устройство рулонного газона</h3>
+          <p>Подготовка основания и укладка рулонного газона — ровный зелёный покров за один день.</p>
+          <span class="service__price">от 500 ₽/м²</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4H20V20H4V4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M4 12H20" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          <h3>Благоустройство территории</h3>
+          <p>Дорожки, площадки, малые архитектурные формы, дренаж и освещение — участок «под ключ».</p>
+          <span class="service__price">по смете</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3V21M3 12H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          <h3>Уход за садом</h3>
+          <p>Регулярная стрижка, полив, подкормка, обрезка и подготовка сада к сезону.</p>
+          <span class="service__price">от 3 000 ₽/выезд</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 20L9 8L14 16L17 10L20 20" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+          <h3>Реконструкция сада</h3>
+          <p>Обновление устаревшей планировки, замена растений, восстановление газона и дорожек.</p>
+          <span class="service__price">по смете</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 20C4 16.7 7.6 14 12 14C16.4 14 20 16.7 20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3>Консультация агронома</h3>
+          <p>Выезд на участок, диагностика почвы и растений, рекомендации по уходу и посадкам.</p>
+          <span class="service__price">10 000 ₽</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="prices" id="prices">
+    <div class="container">
+      <h2 class="section-title">Цены на основные услуги</h2>
+      <p class="section-sub">Точная стоимость — после осмотра участка. Ниже ориентировочные расценки</p>
+
+      <div class="price-table">
+        <div class="price-row price-row--head">
+          <span>Услуга</span><span>Стоимость</span>
+        </div>
+        <div class="price-row"><span>Проект участка</span><span>от 30 000 ₽</span></div>
+        <div class="price-row"><span>Консультация агронома</span><span>10 000 ₽</span></div>
+        <div class="price-row"><span>Посадка растений без гарантии</span><span>30% от стоимости растений</span></div>
+        <div class="price-row"><span>Посадка растений с гарантией</span><span>50% от стоимости растений</span></div>
+        <div class="price-row"><span>Устройство рулонного газона</span><span>от 500 ₽/м²</span></div>
+        <div class="price-row"><span>Контейнерное озеленение (1 композиция)</span><span>от 8 000 ₽</span></div>
+        <div class="price-row"><span>Уход за садом (разовый выезд)</span><span>от 3 000 ₽</span></div>
+        <div class="price-row"><span>Благоустройство территории</span><span>по индивидуальной смете</span></div>
+        <div class="price-row"><span>Реконструкция сада</span><span>по индивидуальной смете</span></div>
+      </div>
+      <p class="price-note">Итоговая смета формируется после выезда на участок — зависит от площади, состава растений и объёма работ.</p>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title">Как проходит работа</h2>
+      <div class="process-grid">
+        <div class="step">
+          <span class="step__num">01</span>
+          <h3>Заявка и выезд</h3>
+          <p>Обсуждаем задачу по телефону, договариваемся о выезде на участок.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">02</span>
+          <h3>Осмотр и диагностика</h3>
+          <p>Оцениваю почву, освещённость, существующие насаждения и пожелания.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">03</span>
+          <h3>Проект и смета</h3>
+          <p>Готовлю план участка, подбор растений и точную стоимость работ.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">04</span>
+          <h3>Реализация</h3>
+          <p>Посадки, газон, благоустройство — выполняю работы по согласованному графику.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">05</span>
+          <h3>Сдача и уход</h3>
+          <p>Показываю результат, даю рекомендации по уходу или беру сад на сопровождение.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="objects" id="objects">
+    <div class="container">
+      <h2 class="section-title">Реализованные проекты</h2>
+      <p class="section-sub">Несколько участков, где я вела работы от проекта до посадки</p>
+
+      <div class="objects-grid">
+        <div class="object">
+          <div class="object__img object__img--1"></div>
+          <div class="object__body">
+            <h3>Загородный участок, 12 соток</h3>
+            <p>Полный ландшафтный проект: зонирование, дорожки, рулонный газон, посадка хвойных и многолетников.</p>
+          </div>
+        </div>
+        <div class="object">
+          <div class="object__img object__img--2"></div>
+          <div class="object__body">
+            <h3>Реконструкция сада, 8 соток</h3>
+            <p>Обновление устаревшей планировки: замена газона, новые группы кустарников, дренаж.</p>
+          </div>
+        </div>
+        <div class="object">
+          <div class="object__img object__img--3"></div>
+          <div class="object__body">
+            <h3>Терраса и входная группа</h3>
+            <p>Контейнерное озеленение и благоустройство прилегающей территории коттеджа.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <h2 class="section-title">Отзывы клиентов</h2>
+      <div class="reviews-grid">
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>«Анастасия сделала проект участка и сама всё посадила. Газон уложили за один день — ровный, как ковёр. Всё честно и по срокам».</p>
+          <span class="review__author">— Ирина, Люберцы</span>
+        </div>
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>«Обратились по реконструкции старого сада. Результат превзошёл ожидания — растения прижились все, гарантия реально работает».</p>
+          <span class="review__author">— Дмитрий, Люберецкий округ</span>
+        </div>
+        <div class="review">
+          <div class="review__stars">★★★★★</div>
+          <p>«Заказывали консультацию агронома — толково объяснила, что не так с почвой, и сразу предложила решение. Профессионал».</p>
+          <span class="review__author">— Наталья, Котельники</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title">Частые вопросы</h2>
+      <div class="faq-list">
+        <details class="faq__item">
+          <summary>В чём разница между посадкой с гарантией и без?</summary>
+          <p>Без гарантии стоимость посадки — 30% от цены растений, ответственность за приживаемость на клиенте. С гарантией — 50%, и если растение не прижилось, я пересаживаю его бесплатно.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Сколько стоит проект участка?</summary>
+          <p>От 30 000 ₽. Финальная цена зависит от площади участка и сложности планировки — озвучиваю точную сумму после осмотра.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Можно заказать только рулонный газон, без проекта?</summary>
+          <p>Да, устройство рулонного газона — самостоятельная услуга от 500 ₽/м², включает подготовку основания и укладку.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Работаете ли вы за пределами Люберец?</summary>
+          <p>Да, выезжаю по Люберецкому округу и ближайшим районам Московской области. Уточняйте адрес при заявке.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Какие растения вы используете?</summary>
+          <p>Подбираю виды под конкретный участок — климат, освещённость, тип почвы. Работаю как с готовым посадочным материалом клиента, так и с закупкой.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Нужна ли консультация агронома отдельно от проекта?</summary>
+          <p>Не обязательно — консультация полезна, если у вас уже есть сад и нужна диагностика проблем с растениями или почвой, без полного проекта.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section" id="contacts">
+    <div class="container form-section__inner">
+      <div class="form-wrap">
+        <h2 class="section-title section-title--left">Обсудим ваш участок</h2>
+        <p class="section-sub section-sub--left">Оставьте заявку — свяжусь в течение дня и предложу удобное время для выезда</p>
+
+        <form id="leadForm" class="form">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form__row">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </div>
+          <select name="service">
+            <option value="">Интересует услуга (необязательно)</option>
+            <option value="Ландшафтное проектирование">Ландшафтное проектирование</option>
+            <option value="Посадка растений">Посадка растений</option>
+            <option value="Контейнерное озеленение">Контейнерное озеленение</option>
+            <option value="Рулонный газон">Устройство рулонного газона</option>
+            <option value="Благоустройство">Благоустройство территории</option>
+            <option value="Уход за садом">Уход за садом</option>
+            <option value="Реконструкция сада">Реконструкция сада</option>
+            <option value="Консультация агронома">Консультация агронома</option>
+          </select>
+          <textarea name="comment" placeholder="Расскажите об участке: площадь, что нужно сделать" rows="4"></textarea>
+          <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+          <p class="form__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+        </form>
+      </div>
+
+      <div class="map-wrap">
+        <iframe src="https://yandex.ru/map-widget/v1/?ll=37.892360%2C55.677520&z=12" width="100%" height="100%" frameborder="0" loading="lazy" title="Карта — Люберцы"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a href="#hero" class="logo logo--footer">
+        <span class="logo__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 6 7 6 12.5C6 16.09 8.69 19 12 19C15.31 19 18 16.09 18 12.5C18 7 12 2 12 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <span class="logo__text">Василькова · Ландшафт</span>
+      </a>
+      <p>Ландшафтное проектирование и озеленение в Люберцах и Московской области.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Контакты</h4>
+      <a href="tel:+79261234567">+7 (926) 123-45-67</a>
+      <a href="mailto:vasilkova.landshaft@example.ru">vasilkova.landshaft@example.ru</a>
+      <span>Люберцы, Московская область</span>
+    </div>
+    <div class="footer__col">
+      <h4>Навигация</h4>
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#objects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Анастасия Василькова. Все права защищены.</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/79261234567" class="fab fab--wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12C2 13.8 2.5 15.5 3.3 17L2 22L7.2 20.7C8.6 21.5 10.3 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM12 20.2C10.4 20.2 8.9 19.7 7.7 18.9L7.4 18.7L4.3 19.5L5.1 16.5L4.9 16.2C4 14.9 3.5 13.5 3.5 12C3.5 7.4 7.4 3.5 12 3.5C16.6 3.5 20.3 7.3 20.3 12C20.3 16.6 16.5 20.2 12 20.2Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
